@@ -21,3 +21,11 @@ print(char)
 print(multiline_str)
 print(unicode)
 print(raw_str)
+
+
+def my_sum(*args):
+    '''Total param array'''
+    return sum(args)
+
+print(my_sum(1,2,3,4))
+print(my_sum.__doc__)
